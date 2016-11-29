@@ -1,0 +1,148 @@
+body {
+      font-family: 20px Monserrat, sans-serif;
+      line-height: 1.8;
+      
+}
+  h2{
+    font-size: 70px;
+    font-family: Electrolize, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+   /* font-style: italic;*/
+    text-align: center;
+  }
+  h3{
+    font-size: 30px;
+  }
+  p {font-size: 20px;
+    margin-bottom: 25px;
+
+}
+a{
+  color: #ffffff;
+}
+  .tpbutton {
+  border-radius: 10px;
+  background-color: #68D4FF;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  font-family: Electrolize, sans-serif;
+}
+
+.tpbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  color: white;
+  transition: 0.5s;
+}
+
+.tpbutton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  color: black;
+  transition: 0.5s;
+}
+
+.tpbutton:hover span {
+  padding-right: 25px;
+}
+
+.tpbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*#leftsde{
+  float: left;
+  padding-left: 30px;
+}*/
+
+  .margin {
+    margin-bottom: 35px;
+    font-size: 35px;
+  }
+  .bg-1 {
+      background-color:#367bc4; 
+      color: #ffffff;
+      padding-bottom: 0px;
+  }
+  .bg-2 {
+      background-color: #ffffff; 
+      color: #555555;
+  }
+  .bg-3 {
+      background-color:#367bc4; 
+      color: #ffffff;
+  }
+
+  .container-fluid {
+      padding-top: 80px;
+      padding-bottom: 30px;
+  }
+  .navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 0px;
+  }
+  .navbar-brand{
+    font-size: 32px;
+    /*padding-left: 25px;*/
+  }
+
+  #floated-imgs {
+    float: right;
+}
+
+#floated-imgs img {
+    display: block;
+    max-width: 200px;
+    padding-right: 75px;
+
+}
+ #floated-imgsl {
+    float: left;
+}
+
+#floated-imgsl img {
+    display: block;
+    max-width: 200px;
+    padding-left: 75px;
+}
+  #navRight{
+    font-size: 20px;
+  }
+  #header2{
+    width: 650px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .navbar-default .navbar-nav>li>a.option1:hover{
+      color: blue;
+  }
+ .navbar-default .navbar-nav>li>a.option2:hover{
+      color: blue;
+  }
+  #botFoot{
+    font-size: 15px;
+  }
+
+  /*.wrapper{
+    width: 180px;
+    float: left;
+    margin: 0px;
+  }
